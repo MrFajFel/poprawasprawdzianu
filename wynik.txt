@@ -1,4 +1,4 @@
-Parzyste: 105
-Nieparzyste: 96
+Parzyste: 106
+Nieparzyste: 95
 Palidromow: 13
-2 pierwsze znaki ktore maja razem 220:plolp
+znaki ktore maja razem 220:komput
