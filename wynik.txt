@@ -1,6 +1,9 @@
+zad1 i zad2:
 Parzyste: 105
 Nieparzyste: 95
 Palidromow: 13
+
+zad3:
 amodda
 damod
 damodd
