@@ -25,15 +25,16 @@ with open('hasla.txt') as file:
         for i in range(len(line)):
             try:
                 wynikascii = ord(line[i]) + ord(line[i + 1])
-                if(wynikascii == 220):
+                if(ord(line[i]) + ord(line[i+1]) == 220):
                     tekst = line
+                    print(tekst)
             except IndexError:
                 if(ord(line[i]) == 220):
                     tekst = line
+                    print(tekst)
 
 
 with open('wynik.txt',"w") as wynik:
     wynik.write("Parzyste: "+str(ileparzystych) + "\n")
     wynik.write("Nieparzyste: "+str(ilenieparzystych)+ "\n")
     wynik.write("Palidromow: "+str(ilepalidromow)+ "\n")
-    wynik.write("znaki ktore maja razem 220:" + tekst)
