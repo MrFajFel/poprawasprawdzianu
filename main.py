@@ -10,7 +10,6 @@ with open('hasla.txt') as file:
     ileparzystych = 0
     ilenieparzystych = 0
     ilepalidromow = 0
-    ilekodascii = 0
     tekst = ""
     for line in file:
         line = line.strip()
@@ -33,8 +32,6 @@ with open('hasla.txt') as file:
                     tekst = line
                     print(tekst)
 
-
-with open('wynik.txt',"w") as wynik:
-    wynik.write("Parzyste: "+str(ileparzystych) + "\n")
-    wynik.write("Nieparzyste: "+str(ilenieparzystych)+ "\n")
-    wynik.write("Palidromow: "+str(ilepalidromow)+ "\n")
+print(ileparzystych)
+print(ilenieparzystych)
+print(ilepalidromow)
